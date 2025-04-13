@@ -1,0 +1,7 @@
+package com.example.pokemon.mappers;
+
+public class TipoMapper {
+	public Tipo dtoToEntity(TipoDTO dto) {
+		
+	}
+}

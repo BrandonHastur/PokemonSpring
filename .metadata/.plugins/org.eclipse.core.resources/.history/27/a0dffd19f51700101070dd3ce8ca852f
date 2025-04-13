@@ -1,0 +1,19 @@
+package com.example.pokemon.models.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "POKEMON")
+public class Pokemon {
+
+	
+	private Long id;
+	private String nombre;
+	private Long ataque;
+	private Long defensa;
+	private Long velocidad;
+	private Pokemon evolucion;
+	
+	
+}

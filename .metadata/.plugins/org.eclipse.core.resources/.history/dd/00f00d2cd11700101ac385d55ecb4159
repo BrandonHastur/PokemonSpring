@@ -1,0 +1,9 @@
+package com.example.productos.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController // dar funcion de controlador
+//Rest controler es para JSON
+public class TestController {
+	
+}

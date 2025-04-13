@@ -1,0 +1,30 @@
+package com.example.productos.controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController // dar funcion de controlador
+//Rest controler es para JSON
+public class TestController {
+	
+	@GetMapping //mapea cualquier peticion get y la retorna con el valor de esta->>
+	public String HolaMundo() {
+		return "Hola mundo desde controller";
+	}
+	
+	@GetMapping //mapea cualquier peticion get y la retorna con el valor de esta->>
+	public String HolaMundo() {
+		return "Hola mundo desde controller";
+	}
+	@GetMapping //mapea cualquier peticion get y la retorna con el valor de esta->>
+	public String HolaMundo() {
+		return "Hola mundo desde controller";
+	}
+	@GetMapping //mapea cualquier peticion get y la retorna con el valor de esta->>
+	public String HolaMundo() {
+		return "Hola mundo desde controller";
+	}
+	
+	
+	
+}

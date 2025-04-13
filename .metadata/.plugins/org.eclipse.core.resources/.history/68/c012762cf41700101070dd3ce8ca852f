@@ -1,0 +1,12 @@
+package com.example.pokemon.models.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table("TIPO_POKEMON")
+public class Tipo {
+	
+	
+
+}

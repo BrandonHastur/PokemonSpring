@@ -1,0 +1,5 @@
+package com.example.productos.models.entities;
+
+public class Producto {
+
+}
