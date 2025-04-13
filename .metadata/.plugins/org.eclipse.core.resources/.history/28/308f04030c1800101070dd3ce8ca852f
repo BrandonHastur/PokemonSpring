@@ -1,0 +1,80 @@
+package com.example.pokemon.services;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.example.pokemon.dto.TipoDTO;
+import com.example.pokemon.mappers.TipoMapper;
+import com.example.pokemon.models.entities.Tipo;
+import com.example.pokemon.models.repositories.TipoRepository;
+
+
+
+@Service //trabajan con repository
+public class TipoServiceImpl implements IService<TipoDTO>{
+	@Autowired
+	private TipoRepository repository;
+
+	@Override
+	@Transactional(readOnly= true)
+	public List<TipoDTO> listar() {
+		List<TipoDTO> lista = new ArrayList<>();
+		TipoMapper mapper = new TipoMapper();
+		repository.findAll().forEach(tipo->{
+			lista.add(mapper.EntityToDTO(tipo));
+		});
+		return lista;
+	}
+
+	@Override
+	@Transactional(readOnly = true)
+	public Optional<TipoDTO> obtenerPorId(Long id) {
+		Optional<Tipo> optTipo = repository.findById(id);
+		if(optTipo.isPresent()) {
+			TipoMapper mapper = new TipoMapper();
+			return Optional.of(mapper.EntityToDTO(optTipo.get()));
+		}
+		return Optional.empty();
+	}
+
+	@Override
+	public TipoDTO insertar(TipoDTO dto) {
+		TipoMapper mapper = new TipoMapper();
+		Tipo tipo = mapper.dtoToEntity(dto);
+		repository.save(tipo);
+		return dto;
+	}
+
+	@Override
+	public TipoDTO editar(TipoDTO dto, Long id) {
+		Optional<Tipo> opt = repository.findById(id);
+		if(opt.isPresent()) {
+			TipoMapper mapper = new TipoMapper();
+			Tipo tipo = opt.get();
+			tipo.setNombre(dto.getNombre());
+			repository.save(tipo);
+			return mapper.EntityToDTO(tipo);
+		}
+		return null;
+	}
+
+	@Override
+	@Transactional
+	public TipoDTO eliminar(Long id) {
+		Optional<Tipo> opt = repository.findById(id);
+		if(opt.isPresent()) {
+			TipoMapper mapper = new TipoMapper();
+			TipoDTO tipoDTO = mapper.EntityToDTO(opt.get());
+			repository.deleteById(id);
+			return tipoDTO;
+		}
+		return null;
+	}
+	
+	
+}

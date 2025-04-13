@@ -17,6 +17,7 @@ import com.example.pokemon.models.repositories.TipoRepository;
 
 @Service //trabajan con repository
 public class TipoServiceImpl implements IService<TipoDTO>{
+	
 	@Autowired
 	private TipoRepository repository;
 
