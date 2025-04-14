@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.pokemon.dto.PokemonDTO;
 import com.example.pokemon.models.entities.Pokemon;
 import com.example.pokemon.services.IService;
 
@@ -23,21 +24,21 @@ import com.example.pokemon.services.IService;
 public class PokemonController {
 	
 		@Autowired
-		private final IService<Pokemon> service;
+		private final PokemonServiceImpl service;
 		
 		
-		public PokemonController(IService<Pokemon> service) {
+		public PokemonController(PokemonServiceImpl service) {
 			this.service = service;
 		}
 		
 		@GetMapping
-		public ResponseEntity<List<Pokemon>> getAll(){
-			return ResponseEntity.ok(service.listar());
+		public ResponseEntity<List<PokemonDTOGet>> getAll(){
+			return ResponseEntity.ok(service.listarDTO());
 		}
 		
 		@GetMapping("/{id}")
-		public ResponseEntity<Pokemon> getById(@PathVariable Long id){
-			Optional<Pokemon> opt = service.obtenerPorId(id);
+		public ResponseEntity<PokemonDTOGet> getById(@PathVariable Long id){
+			Optional<PokemonDTOGet> opt = service.dtoObtenerPorId(id);
 			if(opt.isPresent()) {
 				return ResponseEntity.ok(opt.get());
 			}
@@ -45,13 +46,13 @@ public class PokemonController {
 		}
 		
 		@PostMapping
-		public ResponseEntity<Pokemon> post(@RequestBody Pokemon pokemon){
+		public ResponseEntity<PokemonDTOGet> post(@RequestBody PokemonDTO pokemon){
 			return ResponseEntity.status(HttpStatus.CREATED).body(service.insertar(pokemon));
 		}
 		
 		@PutMapping("/{id}")
-		public ResponseEntity<Pokemon> put(@RequestBody Pokemon pokemon, @PathVariable Long id) {
-		    Pokemon pokemonDb = service.editar(pokemon, id);
+		public ResponseEntity<PokemonDTO> put(@RequestBody PokemonDTO pokemon, @PathVariable Long id) {
+			PokemonDTO pokemonDb = service.editar(pokemon, id);
 		    if (pokemonDb != null) {
 		        return ResponseEntity.ok(pokemonDb);
 		    }
@@ -59,8 +60,8 @@ public class PokemonController {
 		}
 
 		@DeleteMapping("/{id}")
-		public ResponseEntity<Pokemon> delete(@PathVariable Long id) {
-			Pokemon pokemonDb = service.eliminar(id);
+		public ResponseEntity<PokemonDTO> delete(@PathVariable Long id) {
+			PokemonDTO pokemonDb = service.eliminar(id);
 		    if (pokemonDb != null) {
 		        return ResponseEntity.ok(pokemonDb);
 		    }

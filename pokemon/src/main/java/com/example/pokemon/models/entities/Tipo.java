@@ -1,5 +1,6 @@
 package com.example.pokemon.models.entities;
 
+import java.util.HashSet;
 import java.util.Set;
 
 import jakarta.persistence.Column;

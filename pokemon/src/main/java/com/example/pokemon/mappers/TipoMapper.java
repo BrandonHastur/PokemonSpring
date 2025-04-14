@@ -15,4 +15,6 @@ public class TipoMapper {
 		dto.setNombre(tipo.getNombre());
 		return dto;
 	}
+	
+	
 }

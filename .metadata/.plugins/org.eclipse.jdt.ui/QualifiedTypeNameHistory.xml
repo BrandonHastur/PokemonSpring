@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+    <fullyQualifiedTypeName name="com.example.pokemon.models.entities.Pokemon"/>
+    <fullyQualifiedTypeName name="com.example.pokemon.dto.PokemonDTO"/>
+    <fullyQualifiedTypeName name="com.example.pokemon.mappers.TipoMapper"/>
 </qualifiedTypeNameHistroy>
