@@ -2,6 +2,8 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
     <fullyQualifiedTypeName name="com.example.pokemon.models.entities.Pokemon"/>
-    <fullyQualifiedTypeName name="com.example.pokemon.dto.PokemonDTO"/>
     <fullyQualifiedTypeName name="com.example.pokemon.mappers.TipoMapper"/>
+    <fullyQualifiedTypeName name="com.example.pokemon.dto.PokemonDTO"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="com.example.commons.models.entities.Aerolinea"/>
 </qualifiedTypeNameHistroy>
