@@ -7,4 +7,5 @@ import com.example.commons.services.CommonService;
 
 @Service 
 public interface AerolineaService extends CommonService<AerolineaDTO> {
+	
 }

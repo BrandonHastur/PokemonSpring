@@ -51,13 +51,19 @@ public class CommonController <D,S extends CommonService<D>>{///1
         return ResponseEntity.ok(service.insertar(dto));
     }
 
+    
     @PostMapping("/{id}")
     public ResponseEntity<?> put(@Valid @RequestBody D dto, @PathVariable Long id, BindingResult result) {
         if (result.hasErrors()) {
             return this.validar(result);
         }
-        return ResponseEntity.ok(service.editar(dto, id));
+        D entity = service.editar(dto,id);
+        if(entity != null) {
+        	return ResponseEntity.ok(entity);
+        }
+        return ResponseEntity.notFound().build();
     }
+    
 
     @DeleteMapping("/{id}")
     public ResponseEntity<D> delete(@PathVariable Long id) {

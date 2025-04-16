@@ -7,72 +7,72 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Past;
 
+
 public class AerolineaDTO {
+	private Long id;
+	
+	@NotBlank(message="El nombre no puede estar en blanco")
+	private String nombre;
 
-    @NotNull(message = "El ID no debe ser nulo")
-    private Long id;
+	@NotBlank(message="La IATA no puede estar en blanco")
+	private String iata;
+	
+	@Min(value=1, message = "El Estatus no puede ser menor a 1")
+	@Max(value=2, message = "El Estatus no puede ser mayor a 2")
+	private Long estatus;
+	
+	@NotNull(message = "El país no puede ser nulo")
+	private String pais;
+	
+	@Past(message = "La fecha de fundación debe ser anterior a la fecha actual")
+	private LocalDate fecha;
 
-    @NotBlank(message = "El nombre no puede estar en blanco")
-    private String nombre;
+	public Long getId() {
+		return id;
+	}
 
-    @NotBlank(message = "La IATA no puede estar en blanco")
-    private String iata;
+	public void setId(Long id) {
+		this.id = id;
+	}
 
-    @Min(value = 1, message = "El estatus no puede ser menor a 1")
-    @Max(value = 2, message = "El estatus no puede ser mayor a 2")
-    private Long estatus;
+	public String getNombre() {
+		return nombre;
+	}
 
-    @NotNull
-    private String pais;
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
 
-    @Past(message = "La fecha no puede ser anterior a la fecha actual")
-    private LocalDate fechaFundacion;
+	public String getIata() {
+		return iata;
+	}
 
-    public Long getId() {
-        return id;
-    }
+	public void setIata(String iata) {
+		this.iata = iata;
+	}
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+	public Long getEstatus() {
+		return estatus;
+	}
 
-    public String getNombre() {
-        return nombre;
-    }
+	public void setEstatus(Long estatus) {
+		this.estatus = estatus;
+	}
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
+	public String getPais() {
+		return pais;
+	}
 
-    public String getIata() {
-        return iata;
-    }
+	public void setPais(String pais) {
+		this.pais = pais;
+	}
 
-    public void setIata(String iata) {
-        this.iata = iata;
-    }
+	public LocalDate getFecha() {
+		return fecha;
+	}
 
-    public Long getEstatus() {
-        return estatus;
-    }
+	public void setFecha(LocalDate fecha) {
+		this.fecha = fecha;
+	}
 
-    public void setEstatus(Long estatus) {
-        this.estatus = estatus;
-    }
-
-    public String getPais() {
-        return pais;
-    }
-
-    public void setPais(String pais) {
-        this.pais = pais;
-    }
-
-    public LocalDate getFechaFundacion() {
-        return fechaFundacion;
-    }
-
-    public void setFechaFundacion(LocalDate fechaFundacion) {
-        this.fechaFundacion = fechaFundacion;
-    }
 }

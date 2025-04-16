@@ -16,7 +16,7 @@ public class Aerolinea {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEO_AEROLINEA")
-    @SequenceGenerator(name = "SEQ_AEROLINEA", sequenceName = "SEO_AEROLINEA")
+    @SequenceGenerator(name = "SEO_AEROLINEA", sequenceName = "SEO_AEROLINEA")
     @Column(name = "ID_AEROLINEA")
     private Long id;
 

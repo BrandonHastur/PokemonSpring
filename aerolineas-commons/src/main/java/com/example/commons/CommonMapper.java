@@ -15,4 +15,5 @@ public class CommonMapper<D, E, R extends JpaRepository<E, Long>> {
     public E dtoToEntity(D dto) {
         return null;
     }
+    
 }
