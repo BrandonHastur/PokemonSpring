@@ -8,29 +8,32 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.example.aviones.dto.AvionDTO;
+import com.example.aviones.mappers.AvionMapper;
+import com.example.aviones.models.repositories.AvionRepository;
 import com.example.commons.models.entities.Avion;
+import com.example.commons.services.CommonServiceImpl;
 
 @Service
 public class AvionesServiceImpl extends 
 	CommonServiceImpl<AvionDTO, Avion, AvionMapper, AvionRepository>
-	implements AvionService{
+	implements AvionesService{
 	
 	@Override
 	@Transactional(readOnly = true)
 	public List<AvionDTO> listar() {
 		List<AvionDTO> lista = new ArrayList<>();
 		repository.findAll().forEach(linea->{
-			lista.add(mapper.entityToDTO(linea));
+			lista.add(mapper.entityToDto(linea));
 		});
 		return lista;
 	}
 
 	@Override
 	@Transactional(readOnly = true)
-	public Optional<AvionDTO> obtenerPorId(Long id) {
+	public Optional<AvionDTO> obtener(Long id) {
 		Optional<Avion> optTipo = repository.findById(id);
 		if(optTipo.isPresent()) {
-			return Optional.of(mapper.entityToDTO(optTipo.get()));
+			return Optional.of(mapper.entityToDto(optTipo.get()));
 		}
 		return Optional.empty();
 	}
@@ -60,7 +63,7 @@ public class AvionesServiceImpl extends
 	public AvionDTO eliminar(Long id) {
 		Optional<Avion> opt = repository.findById(id);
 		if(opt.isPresent()) {
-			AvionDTO dto = mapper.entityToDTO(opt.get());
+			AvionDTO dto = mapper.entityToDto(opt.get());
 			repository.deleteById(id);
 			return dto;
 		}

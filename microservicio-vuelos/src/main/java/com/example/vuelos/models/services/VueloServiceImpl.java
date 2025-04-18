@@ -7,7 +7,11 @@ import java.util.Optional;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.example.commons.models.entities.Vuelo;
+import com.example.commons.services.CommonServiceImpl;
 import com.example.vuelos.dto.VueloDTO;
+import com.example.vuelos.mappers.VuelosMapper;
+import com.example.vuelos.models.repositories.VueloRepository;
 
 @Service
 public class VueloServiceImpl extends 
@@ -19,20 +23,23 @@ public class VueloServiceImpl extends
 	public List<VueloDTO> listar() {
 		List<VueloDTO> lista = new ArrayList<>();
 		repository.findAll().forEach(linea->{
-			lista.add(mapper.entityToDTO(linea));
+			lista.add(mapper.entityToDto(linea));
 		});
 		return lista;
 	}
 
+	
 	@Override
 	@Transactional(readOnly = true)
-	public Optional<VueloDTO> obtenerPorId(Long id) {
+	public Optional<VueloDTO> obtener(Long id) {
 		Optional<Vuelo> optTipo = repository.findById(id);
 		if(optTipo.isPresent()) {
-			return Optional.of(mapper.entityToDTO(optTipo.get()));
+			return Optional.of(mapper.entityToDto(optTipo.get()));
 		}
 		return Optional.empty();
 	}
+	
+	
 	@Override
 	@Transactional
 	public VueloDTO insertar(VueloDTO dto) {
@@ -40,6 +47,8 @@ public class VueloServiceImpl extends
 		repository.save(vuelo);
 		return dto;
 	}
+	
+	
 	@Override
 	@Transactional
 	public VueloDTO editar(VueloDTO dto, Long id) {
@@ -57,7 +66,7 @@ public class VueloServiceImpl extends
 	public VueloDTO eliminar(Long id) {
 		Optional<Vuelo> opt = repository.findById(id);
 		if(opt.isPresent()) {
-			VueloDTO dto = mapper.entityToDTO(opt.get());
+			VueloDTO dto = mapper.entityToDto(opt.get());
 			repository.deleteById(id);
 			return dto;
 		}

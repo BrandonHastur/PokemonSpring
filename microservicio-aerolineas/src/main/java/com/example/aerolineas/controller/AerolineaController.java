@@ -1,6 +1,5 @@
 package com.example.aerolineas.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.example.aerolineas.dto.AerolineaDTO;
 import com.example.aerolineas.models.services.AerolineaService;
@@ -14,4 +13,5 @@ public class AerolineaController extends CommonController<AerolineaDTO, Aeroline
 		super(service);
 	}
 
+	
 }

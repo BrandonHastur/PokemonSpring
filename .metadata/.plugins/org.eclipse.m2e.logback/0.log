@@ -3692,3 +3692,411 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2025-04-16 16:58:02,290 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-04-16 16:58:02,300 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-04-16 16:58:02,303 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\aerolineas-commons\src\test\resources
+2025-04-16 17:29:02,861 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:29:02,873 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:02,878 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\aerolineas-commons\src\test\resources
+2025-04-16 17:29:03,094 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:29:03,127 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:03,133 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\eureka-server\src\test\resources
+2025-04-16 17:29:03,363 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:29:03,377 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:03,381 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-16 17:29:03,581 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:29:03,592 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:03,595 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-16 17:29:03,826 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:29:03,841 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:03,845 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-16 17:29:04,016 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-16 17:29:04,034 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:04,040 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-gateway\src\test\resources
+2025-04-16 17:29:04,267 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:29:04,281 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:04,286 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-16 17:29:19,860 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-16 17:29:21,686 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brandon:commons:0.0.1-SNAPSHOT @ C:\Users\brandeon\springtoolinstall\aerolineas-commons\pom.xml.
+2025-04-16 17:29:21,939 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brandon:eureka-server:0.0.1-SNAPSHOT @ C:\Users\brandeon\springtoolinstall\eureka-server\pom.xml.
+2025-04-16 17:29:22,262 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brandon:microservicio-aerolineas:0.0.1-SNAPSHOT @ C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\pom.xml.
+2025-04-16 17:29:22,339 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier  to /aerolineas-commons/target/classes
+2025-04-16 17:29:22,405 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brandon:microservicio-aeropuertos:0.0.1-SNAPSHOT @ C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\pom.xml.
+2025-04-16 17:29:22,533 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brandon:microservicio-aviones:0.0.1-SNAPSHOT @ C:\Users\brandeon\springtoolinstall\microservicio-aviones\pom.xml.
+2025-04-16 17:29:22,609 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier  to /aerolineas-commons/target/classes
+2025-04-16 17:29:22,637 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brandon:microservicio-gateway:0.0.1-SNAPSHOT @ C:\Users\brandeon\springtoolinstall\microservicio-gateway\pom.xml.
+2025-04-16 17:29:22,764 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brandon:microservicio-vuelos:0.0.1-SNAPSHOT @ C:\Users\brandeon\springtoolinstall\microservicio-vuelos\pom.xml.
+2025-04-16 17:29:25,892 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /aerolineas-commons/src/main/java
+2025-04-16 17:29:25,895 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /aerolineas-commons/src/main/resources
+2025-04-16 17:29:25,896 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /aerolineas-commons/src/main/resources
+2025-04-16 17:29:25,896 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /aerolineas-commons/src/test/java
+2025-04-16 17:29:25,898 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /aerolineas-commons/src/test/resources
+2025-04-16 17:29:26,353 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/main/java
+2025-04-16 17:29:26,354 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-04-16 17:29:26,354 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-04-16 17:29:26,355 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/test/java
+2025-04-16 17:29:26,355 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/test/resources
+2025-04-16 17:29:26,909 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-aerolineas/src/main/java
+2025-04-16 17:29:26,910 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-aerolineas/src/main/resources
+2025-04-16 17:29:26,910 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-aerolineas/src/main/resources
+2025-04-16 17:29:26,911 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-aerolineas/src/test/java
+2025-04-16 17:29:26,911 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-aerolineas/src/test/resources
+2025-04-16 17:29:27,450 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-aeropuertos/src/main/java
+2025-04-16 17:29:27,451 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-aeropuertos/src/main/resources
+2025-04-16 17:29:27,452 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-aeropuertos/src/main/resources
+2025-04-16 17:29:27,453 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-aeropuertos/src/test/java
+2025-04-16 17:29:27,454 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-aeropuertos/src/test/resources
+2025-04-16 17:29:28,006 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-aviones/src/main/java
+2025-04-16 17:29:28,007 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-aviones/src/main/resources
+2025-04-16 17:29:28,008 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-aviones/src/main/resources
+2025-04-16 17:29:28,008 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-aviones/src/test/java
+2025-04-16 17:29:28,009 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-aviones/src/test/resources
+2025-04-16 17:29:28,550 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-gateway/src/main/java
+2025-04-16 17:29:28,551 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-gateway/src/main/resources
+2025-04-16 17:29:28,551 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-gateway/src/main/resources
+2025-04-16 17:29:28,552 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-gateway/src/test/java
+2025-04-16 17:29:28,553 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-gateway/src/test/resources
+2025-04-16 17:29:29,088 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-vuelos/src/main/java
+2025-04-16 17:29:29,088 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-vuelos/src/main/resources
+2025-04-16 17:29:29,089 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-vuelos/src/main/resources
+2025-04-16 17:29:29,089 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-vuelos/src/test/java
+2025-04-16 17:29:29,090 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-vuelos/src/test/resources
+2025-04-16 17:29:30,027 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 7 poms: local refresh takes 0.00 sec, refresh facades takes 5.00 sec, update config takes 3.00 sec 
+2025-04-16 17:29:30,357 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:29:30,376 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:30,381 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\aerolineas-commons\src\test\resources
+2025-04-16 17:29:30,614 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:29:30,636 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:30,643 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\eureka-server\src\test\resources
+2025-04-16 17:29:31,130 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:29:31,161 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:31,165 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-16 17:29:31,414 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:29:31,429 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:31,435 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-16 17:29:31,716 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:29:31,733 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:31,739 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-16 17:29:31,965 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-16 17:29:31,982 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:31,986 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-gateway\src\test\resources
+2025-04-16 17:29:32,436 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:29:32,453 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:32,458 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-16 17:29:35,783 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:29:35,791 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:29:35,796 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-16 17:30:29,326 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-16 17:38:41,523 [Worker-14: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier  to /aerolineas-commons/target/classes
+2025-04-16 17:38:56,806 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brandon:microservicio-aeropuertos:0.0.1-SNAPSHOT @ C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\pom.xml.
+2025-04-16 17:38:58,913 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:38:58,933 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:38:58,940 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-16 17:39:01,123 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:39:01,134 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:39:01,139 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-16 17:39:16,984 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brandon:microservicio-aeropuertos:0.0.1-SNAPSHOT @ C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\pom.xml.
+2025-04-16 17:39:18,448 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:39:18,451 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:39:18,460 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-16 17:39:25,346 [Worker-14: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier  to /aerolineas-commons/target/classes
+2025-04-16 17:40:07,181 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brandon:microservicio-aviones:0.0.1-SNAPSHOT @ C:\Users\brandeon\springtoolinstall\microservicio-aviones\pom.xml.
+2025-04-16 17:40:08,784 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:40:08,799 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:40:08,806 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-16 17:40:10,374 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:40:10,391 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:40:10,397 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-16 17:40:50,733 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brandon:microservicio-vuelos:0.0.1-SNAPSHOT @ C:\Users\brandeon\springtoolinstall\microservicio-vuelos\pom.xml.
+2025-04-16 17:40:52,394 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:40:52,408 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:40:52,414 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-16 17:40:53,975 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 17:40:53,993 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 17:40:54,002 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-16 18:08:05,659 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 18:08:05,666 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 18:08:05,673 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-16 18:12:24,282 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 18:12:24,313 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 18:12:24,319 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-16 18:12:59,568 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 18:12:59,583 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 18:12:59,587 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\aerolineas-commons\src\test\resources
+2025-04-16 18:13:43,126 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 18:13:43,133 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 18:13:43,137 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-16 18:14:36,319 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 18:14:36,346 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 18:14:36,348 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-16 18:15:11,700 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 18:15:11,705 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 18:15:11,707 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-16 18:15:53,956 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 18:15:53,972 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 18:15:53,975 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-16 18:19:44,001 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-16 18:19:44,028 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 18:19:44,036 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-gateway\src\test\resources
+2025-04-16 18:20:45,935 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 18:20:45,939 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 18:20:45,942 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-gateway\src\test\resources
+2025-04-16 18:23:23,959 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-16 18:33:52,135 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 18:33:52,155 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 18:33:52,161 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-16 18:40:59,166 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 18:40:59,171 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 18:40:59,175 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-16 18:42:43,335 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 18:42:43,353 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 18:42:43,375 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-16 22:37:54,431 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 22:37:54,463 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 22:37:54,467 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-16 22:44:29,144 [Worker-27: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier  to /aerolineas-commons/target/classes
+2025-04-16 22:44:29,321 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 22:44:29,353 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 22:44:29,364 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-16 22:46:17,717 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 22:46:17,723 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 22:46:17,728 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-16 22:46:22,747 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-16 22:46:22,750 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-16 22:46:22,753 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-17 12:19:32,295 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-17 22:40:04,134 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-17 22:57:41,494 [Worker-14: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier  to /aerolineas-commons/target/classes
+2025-04-17 22:57:48,169 [Worker-14: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 22:57:48,183 [Worker-14: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 22:57:48,187 [Worker-14: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\aerolineas-commons\src\test\resources
+2025-04-17 22:57:48,810 [Worker-14: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 22:57:48,839 [Worker-14: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 22:57:48,843 [Worker-14: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-17 22:57:49,284 [Worker-14: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 22:57:49,652 [Worker-14: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 22:57:49,978 [Worker-14: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 22:57:50,318 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 22:57:50,333 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 22:57:50,337 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\eureka-server\src\test\resources
+2025-04-17 22:57:51,738 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 22:57:51,754 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 22:57:51,759 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-17 22:57:53,519 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 22:57:53,542 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 22:57:53,546 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-17 22:57:55,033 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-17 22:57:55,071 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 22:57:55,084 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-gateway\src\test\resources
+2025-04-17 22:57:57,104 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 22:57:57,135 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 22:57:57,143 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-17 23:00:42,896 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:00:42,903 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:00:42,907 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-17 23:00:53,695 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:00:53,701 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:00:53,706 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-17 23:01:47,183 [Worker-20: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 23:01:47,395 [Worker-20: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 23:01:47,613 [Worker-20: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 23:03:12,383 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:03:12,386 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:03:12,389 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-17 23:04:03,460 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:04:03,481 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:04:03,486 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-17 23:10:11,065 [Worker-11: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 23:10:11,275 [Worker-11: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 23:10:11,485 [Worker-11: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 23:11:56,142 [Worker-5: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 23:11:56,344 [Worker-5: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 23:11:56,548 [Worker-5: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 23:14:18,384 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:14:18,387 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:14:18,389 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-17 23:14:20,339 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:14:20,347 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:14:20,349 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-17 23:15:35,801 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:15:35,805 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:15:35,809 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-17 23:16:11,896 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:16:11,901 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:16:11,904 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-17 23:16:55,313 [Worker-5: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 23:16:55,525 [Worker-5: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 23:16:55,758 [Worker-5: Launching microservicio-aerolineas - MicroservicioAerolineasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier null to /aerolineas-commons/target/classes
+2025-04-17 23:21:42,586 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:21:42,590 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:21:42,592 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-17 23:27:04,246 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brandon:microservicio-aeropuertos:0.0.1-SNAPSHOT @ C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\pom.xml.
+2025-04-17 23:27:04,819 [Worker-17: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier  to /aerolineas-commons/target/classes
+2025-04-17 23:27:05,276 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:27:05,277 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:27:05,284 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-17 23:27:06,528 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:27:06,548 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:27:06,551 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-17 23:29:11,072 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:29:11,076 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:29:11,078 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-17 23:30:40,971 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:30:40,977 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:30:40,984 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-17 23:31:01,141 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:31:01,145 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:31:01,147 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-17 23:35:14,790 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:35:14,796 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:35:14,799 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-17 23:35:37,833 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:35:37,837 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:35:37,839 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-17 23:39:49,486 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:39:49,492 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:39:49,496 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-17 23:41:17,976 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brandon:microservicio-aviones:0.0.1-SNAPSHOT @ C:\Users\brandeon\springtoolinstall\microservicio-aviones\pom.xml.
+2025-04-17 23:41:18,552 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier  to /aerolineas-commons/target/classes
+2025-04-17 23:41:19,161 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:41:19,162 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:41:19,167 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-17 23:41:20,371 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:41:20,391 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:41:20,395 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-17 23:41:56,909 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brandon:microservicio-vuelos:0.0.1-SNAPSHOT @ C:\Users\brandeon\springtoolinstall\microservicio-vuelos\pom.xml.
+2025-04-17 23:41:57,463 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier  to /aerolineas-commons/target/classes
+2025-04-17 23:41:58,009 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:41:58,009 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:41:58,013 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-17 23:41:59,200 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:41:59,221 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:41:59,223 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-17 23:43:11,631 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:43:11,636 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:43:11,639 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-17 23:46:01,840 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:46:01,846 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:46:01,848 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-17 23:50:56,268 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:50:56,273 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:50:56,276 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-17 23:51:57,223 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:51:57,227 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:51:57,230 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-17 23:52:22,133 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:52:22,137 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:52:22,140 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-17 23:52:38,171 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:52:38,174 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:52:38,176 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-17 23:53:29,411 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:53:29,415 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:53:29,418 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-17 23:59:09,376 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:59:09,394 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:59:09,398 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-17 23:59:21,294 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:59:21,307 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:59:21,311 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-17 23:59:31,502 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-17 23:59:31,509 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-17 23:59:31,513 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-18 00:00:42,728 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 00:00:42,733 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 00:00:42,736 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 00:02:00,191 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 00:02:00,196 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 00:02:00,199 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 00:03:00,802 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 00:03:00,807 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 00:03:00,814 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 00:07:18,668 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 00:07:18,676 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 00:07:18,679 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 09:58:09,769 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 09:58:09,774 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 09:58:09,777 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-18 10:05:21,468 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-18 10:05:44,610 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier  to /aerolineas-commons/target/classes
+2025-04-18 10:05:44,926 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 10:05:44,943 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 10:05:44,949 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-18 10:33:28,549 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 10:33:28,555 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 10:33:28,560 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-18 10:55:55,525 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier  to /aerolineas-commons/target/classes
+2025-04-18 10:55:55,644 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 10:55:55,655 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 10:55:55,660 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 10:57:40,580 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 10:57:40,588 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 10:57:40,593 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 10:57:59,171 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 10:57:59,181 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 10:57:59,184 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 10:58:03,887 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 10:58:03,892 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 10:58:03,896 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 10:58:14,986 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 10:58:14,990 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 10:58:14,996 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 10:58:21,287 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 10:58:21,290 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 10:58:21,294 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 10:58:38,799 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 10:58:38,804 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 10:58:38,808 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 10:58:48,438 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 10:58:48,441 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 10:58:48,445 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 10:58:59,635 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 10:58:59,639 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 10:58:59,643 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 10:59:49,309 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier  to /aerolineas-commons/target/classes
+2025-04-18 10:59:49,494 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 10:59:49,510 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 10:59:49,516 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aerolineas\src\test\resources
+2025-04-18 10:59:54,212 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 10:59:54,216 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 10:59:54,220 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 11:00:30,641 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 11:00:30,646 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 11:00:30,648 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 11:00:46,154 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 11:00:46,163 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 11:00:46,167 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aeropuertos\src\test\resources
+2025-04-18 11:00:49,705 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 11:00:49,730 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 11:00:49,739 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\aerolineas-commons\src\test\resources
+2025-04-18 11:01:23,195 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 11:01:23,201 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 11:01:23,205 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-18 11:08:44,009 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 11:08:44,013 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 11:08:44,018 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-18 11:08:56,183 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 11:08:56,187 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 11:08:56,190 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-18 11:12:16,696 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 11:12:16,702 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 11:12:16,705 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-18 11:12:20,726 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 11:12:20,730 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 11:12:20,732 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-18 11:12:22,440 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 11:12:22,443 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 11:12:22,447 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-aviones\src\test\resources
+2025-04-18 11:13:11,880 [Worker-28: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/aerolineas-commons: com.brandon:commons:0.0.1-SNAPSHOT with classifier  to /aerolineas-commons/target/classes
+2025-04-18 11:13:11,990 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 11:13:12,000 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 11:13:12,004 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-18 11:29:09,372 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 11:29:09,382 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 11:29:09,384 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-18 11:29:25,209 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 11:29:25,212 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 11:29:25,214 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-18 11:29:29,725 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 11:29:29,729 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 11:29:29,731 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources
+2025-04-18 11:33:32,723 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-18 11:33:32,729 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-18 11:33:32,734 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\brandeon\springtoolinstall\microservicio-vuelos\src\test\resources

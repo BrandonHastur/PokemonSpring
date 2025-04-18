@@ -5,7 +5,6 @@ import java.util.Optional;
 
 public interface CommonService<D> { //D de DTO
 
-
     List<D> listar();
 
     Optional<D> obtener(Long id);

@@ -1,13 +1,17 @@
 package com.example.aeropuertos.mappers;
 
 import org.springframework.stereotype.Component;
+
+import com.example.commons.CommonMapper;
 import com.example.commons.models.entities.Aeropuerto;
 import com.example.aeropuertos.dto.AeropuertoDTO;
+import com.example.aeropuertos.models.repositories.AeropuertoRepository;
 
 @Component
-public class AeropuertoMapper extends CommonMapper<AeropuertoDTO, Aeropuerto, AeropuertoRespository>{
+public class AeropuertoMapper extends CommonMapper<AeropuertoDTO, Aeropuerto, AeropuertoRepository>{
+	
 	@Override
-	public AeropuertoDTO entityToDTO (Aeropuerto entity) {
+	public AeropuertoDTO entityToDto(Aeropuerto entity) {
 		AeropuertoDTO dto = new AeropuertoDTO();
 		dto.setId(entity.getId());
 		dto.setNombre(entity.getNombre());

@@ -2,6 +2,8 @@ package com.example.vuelos.dto;
 
 import java.time.LocalDate;
 
+import com.example.commons.models.entities.Aerolinea;
+
 public class AvionDTO {
 
 	private Long id;

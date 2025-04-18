@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import com.example.aviones.clients.AerolineaClient;
 import com.example.aviones.dto.AvionDTO;
+import com.example.aviones.models.repositories.AvionRepository;
 import com.example.commons.CommonMapper;
 import com.example.commons.models.entities.Aerolinea;
 import com.example.commons.models.entities.Avion;
@@ -29,7 +30,7 @@ public class AvionMapper extends CommonMapper<AvionDTO, Avion, AvionRepository>{
 	}
 
 	@Override
-	public AvionDTO dtoToEntity(AvionDTO dto) {
+	public Avion dtoToEntity(AvionDTO dto) {
 		Avion entity = new Avion();
 		entity.setId(dto.getId());
 		entity.setNumRegistro(dto.getNumRegistro());

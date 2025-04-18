@@ -3,9 +3,14 @@ package com.example.vuelos.mappers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.example.commons.CommonMapper;
+import com.example.commons.models.entities.Aeropuerto;
+import com.example.commons.models.entities.Avion;
+import com.example.commons.models.entities.Vuelo;
 import com.example.vuelos.clients.AeropuertoClient;
 import com.example.vuelos.clients.AvionClient;
 import com.example.vuelos.dto.VueloDTO;
+import com.example.vuelos.models.repositories.VueloRepository;
 
 @Component
 public class VuelosMapper extends CommonMapper<VueloDTO, Vuelo, VueloRepository>{
@@ -17,7 +22,7 @@ public class VuelosMapper extends CommonMapper<VueloDTO, Vuelo, VueloRepository>
 	private AeropuertoClient aeropuertoClient;
 	
 	@Override
-	public VueloDTO entityToDTO (Vuelo entity) {
+	public VueloDTO entityToDto(Vuelo entity) {
 		VueloDTO dto = new VueloDTO();
 		dto.setId(entity.getId());
 		dto.setCodigoVuelo(entity.getCodigoVuelo());

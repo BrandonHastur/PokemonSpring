@@ -10,4 +10,13 @@
     <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
     <fullyQualifiedTypeName name="com.example.aviones.dto.AvionDTO"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="com.example.aeropuertos.models.services.AeropuertoService"/>
+    <fullyQualifiedTypeName name="com.example.commons.services.CommonService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="com.example.commons.controllers.CommonController"/>
+    <fullyQualifiedTypeName name="com.example.aeropuertos.dto.AeropuertoDTO"/>
+    <fullyQualifiedTypeName name="com.example.commons.services.CommonServiceImpl"/>
+    <fullyQualifiedTypeName name="com.example.commons.models.entities.Aeropuerto"/>
+    <fullyQualifiedTypeName name="com.example.aeropuertos.mappers.AeropuertoMapper"/>
 </qualifiedTypeNameHistroy>

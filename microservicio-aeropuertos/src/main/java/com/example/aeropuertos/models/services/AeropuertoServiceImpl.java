@@ -6,28 +6,32 @@ import java.util.Optional;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import com.example.aeropuertos.dto.AeropuertoDTO;
+import com.example.aeropuertos.mappers.AeropuertoMapper;
+import com.example.aeropuertos.models.repositories.AeropuertoRepository;
+import com.example.commons.models.entities.Aeropuerto;
+import com.example.commons.services.CommonServiceImpl;
 
 @Service
 public class AeropuertoServiceImpl extends 
-CommonServiceImpl<AeropuertoDTO, Aeropuerto, AeropuertoMapper, AeropuertoRespository>
-implements AeropuertoService	{
+CommonServiceImpl<AeropuertoDTO, Aeropuerto, AeropuertoMapper, AeropuertoRepository>
+implements AeropuertoService{
 
 	@Override
 	@Transactional(readOnly = true)
 	public List<AeropuertoDTO> listar() {
 		List<AeropuertoDTO> lista = new ArrayList<>();
 		repository.findAll().forEach(linea->{
-			lista.add(mapper.entityToDTO(linea));
+			lista.add(mapper.entityToDto(linea));
 		});
 		return lista;
 	}
 
 	@Override
 	@Transactional(readOnly = true)
-	public Optional<AeropuertoDTO> obtenerPorId(Long id) {
+	public Optional<AeropuertoDTO> obtener(Long id) {
 		Optional<Aeropuerto> optTipo = repository.findById(id);
 		if(optTipo.isPresent()) {
-			return Optional.of(mapper.entityToDTO(optTipo.get()));
+			return Optional.of(mapper.entityToDto(optTipo.get()));
 		}
 		return Optional.empty();
 	}
@@ -54,7 +58,7 @@ implements AeropuertoService	{
 			aeropuerto.setPais(dto.getPais());
 			aeropuerto.setEstatus(dto.getEstatus());
 			repository.save(aeropuerto);
-			return mapper.entityToDTO(aeropuerto);
+			return mapper.entityToDto(aeropuerto);
 		}
 		return null;
 	}
@@ -64,7 +68,7 @@ implements AeropuertoService	{
 	public AeropuertoDTO eliminar(Long id) {
 		Optional<Aeropuerto> opt = repository.findById(id);
 		if(opt.isPresent()) {
-			AeropuertoDTO dto = mapper.entityToDTO(opt.get());
+			AeropuertoDTO dto = mapper.entityToDto(opt.get());
 			repository.deleteById(id);
 			return dto;
 		}
