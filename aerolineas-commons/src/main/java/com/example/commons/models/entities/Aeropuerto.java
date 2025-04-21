@@ -9,12 +9,12 @@ import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 
 @Entity
-@Table
+@Table(name="AEROPUERTO")
 public class Aeropuerto {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_AEROPUERTO")
-	@SequenceGenerator(name="SEQ_AEROPUERTO", sequenceName = "SEQ_AEROPUERTO", allocationSize = 1)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEO_AEROPUERTO")
+	@SequenceGenerator(name="SEO_AEROPUERTO", sequenceName = "SEO_AEROPUERTO", allocationSize = 1)
 	@Column(name="ID_AEROPUERTO")
 	private Long id;
 
@@ -35,6 +35,25 @@ public class Aeropuerto {
 
 	@Column(name="ID_ESTATUS")
 	private Long estatus;
+		
+
+	public Aeropuerto(Long id, String nombre, String codigo, String latitud, String longitud, String pais,
+			Long estatus) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.codigo = codigo;
+		this.latitud = latitud;
+		this.longitud = longitud;
+		this.pais = pais;
+		this.estatus = estatus;
+	}
+	
+	
+	public Aeropuerto() {
+
+	}
+
 
 	public Long getId() {
 		return id;

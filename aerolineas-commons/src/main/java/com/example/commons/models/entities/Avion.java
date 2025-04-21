@@ -13,12 +13,12 @@ import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 
 @Entity
-@Table
+@Table(name="AVION")
 public class Avion {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_AVION")
-	@SequenceGenerator(name="SEQ_AVION", sequenceName = "SEQ_AVION", allocationSize = 1)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEO_AVION")
+	@SequenceGenerator(name="SEO_AVION", sequenceName = "SEO_AVION", allocationSize = 1)
 	@Column(name="ID_AVION")
 	private Long id;
 
@@ -43,6 +43,29 @@ public class Avion {
 	@ManyToOne
 	@JoinColumn(name="ID_AEROLINEA", referencedColumnName = "ID_AEROLINEA")
 	private Aerolinea aerolinea;
+	
+	
+
+	public Avion(Long id, Long numRegistro, String tipo, String codigoModelo, Long capacidad,
+			LocalDate fechaPrimerVuelo, Long estatus, Aerolinea aerolinea) {
+		super();
+		this.id = id;
+		this.numRegistro = numRegistro;
+		this.tipo = tipo;
+		this.codigoModelo = codigoModelo;
+		this.capacidad = capacidad;
+		this.fechaPrimerVuelo = fechaPrimerVuelo;
+		this.estatus = estatus;
+		this.aerolinea = aerolinea;
+	}
+	
+	
+
+	public Avion() {
+		// TODO Auto-generated constructor stub
+	}
+
+
 
 	public Long getId() {
 		return id;

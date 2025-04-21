@@ -34,25 +34,35 @@ public class VuelosMapper extends CommonMapper<VueloDTO, Vuelo, VueloRepository>
 		return dto;
 	}
 
+	
 	@Override
 	public Vuelo dtoToEntity(VueloDTO dto) {
-		Vuelo entity = new Vuelo();
-		entity.setId(dto.getId());
-		entity.setCodigoVuelo(dto.getCodigoVuelo());
-		Avion avion = avionClient.getAvionById(dto.getIdAvion());
-		if(avion!=null) {
-			entity.setAvion(avion);
-		}
-		Aeropuerto origen = aeropuertoClient.getAeropuertoById(dto.getIdOrigen());
-		if(origen!=null) {
-			entity.setOrigen(origen);
-		}
-		Aeropuerto destino = aeropuertoClient.getAeropuertoById(dto.getIdDestino());
-		if(destino!=null) {
-			entity.setOrigen(destino);
-		}
-		entity.setEstatus(dto.getEstatus());
-		entity.setFechaSalida(dto.getFechaSalida());
-		return entity;
+	    Vuelo entity = new Vuelo();
+
+	    if (dto.getId() != null) {
+	        entity.setId(dto.getId());
+	    }
+
+	    entity.setCodigoVuelo(dto.getCodigoVuelo());
+
+	    Avion avion = avionClient.getAvionById(dto.getIdAvion());
+	    if (avion != null) {
+	        entity.setAvion(avion);
+	    }
+
+	    Aeropuerto origen = aeropuertoClient.getAeropuertoById(dto.getIdOrigen());
+	    if (origen != null) {
+	        entity.setOrigen(origen);
+	    }
+
+	    Aeropuerto destino = aeropuertoClient.getAeropuertoById(dto.getIdDestino());
+	    if (destino != null) {
+	        entity.setDestino(destino);
+	    }
+
+	    entity.setEstatus(dto.getEstatus());
+	    entity.setFechaSalida(dto.getFechaSalida());
+
+	    return entity;
 	}
 }

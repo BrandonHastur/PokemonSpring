@@ -5,9 +5,11 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Service;
 
 import com.example.commons.CommonMapper;
 
+//@Service
 public class CommonServiceImpl<D, E, M extends CommonMapper<D, E, R>,
 R extends JpaRepository<E, Long>> implements CommonService<D>{
 	

@@ -7,7 +7,6 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Past;
 
-
 public class AerolineaDTO {
 	private Long id;
 	
@@ -17,15 +16,16 @@ public class AerolineaDTO {
 	@NotBlank(message="La IATA no puede estar en blanco")
 	private String iata;
 	
-	@Min(value=1, message = "El Estatus no puede ser menor a 1")
-	@Max(value=2, message = "El Estatus no puede ser mayor a 2")
-	private Long estatus;
-	
 	@NotNull(message = "El país no puede ser nulo")
 	private String pais;
 	
 	@Past(message = "La fecha de fundación debe ser anterior a la fecha actual")
 	private LocalDate fecha;
+	
+	@Min(value=1, message = "El Estatus no puede ser menor a 1")
+	@Max(value=2, message = "El Estatus no puede ser mayor a 2")
+	private Long estatus;
+	
 
 	public Long getId() {
 		return id;

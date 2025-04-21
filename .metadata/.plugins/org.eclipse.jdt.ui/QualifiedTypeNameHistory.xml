@@ -19,4 +19,6 @@
     <fullyQualifiedTypeName name="com.example.commons.services.CommonServiceImpl"/>
     <fullyQualifiedTypeName name="com.example.commons.models.entities.Aeropuerto"/>
     <fullyQualifiedTypeName name="com.example.aeropuertos.mappers.AeropuertoMapper"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 </qualifiedTypeNameHistroy>

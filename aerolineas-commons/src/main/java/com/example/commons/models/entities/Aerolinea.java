@@ -16,7 +16,7 @@ public class Aerolinea {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEO_AEROLINEA")
-    @SequenceGenerator(name = "SEO_AEROLINEA", sequenceName = "SEO_AEROLINEA")
+    @SequenceGenerator(name = "SEO_AEROLINEA", sequenceName = "SEO_AEROLINEA", allocationSize= 1)
     @Column(name = "ID_AEROLINEA")
     private Long id;
 
@@ -25,17 +25,34 @@ public class Aerolinea {
 
     @Column(name = "IATA")
     private String iata;
+    
+    @Column(name = "PAIS")
+    private String pais;
+    
+    @Column(name = "FECHA_FUNDACION")
+    private LocalDate fechaFundacion;
 
     @Column(name = "ID_ESTATUS")
     private Long estatus;
 
-    @Column(name = "PAIS")
-    private String pais;
+    
+    
 
-    @Column(name = "FECHA_FUNDACION")
-    private LocalDate fechaFundacion;
+    public Aerolinea(Long id, String nombre, String iata, String pais, LocalDate fechaFundacion, Long estatus) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.iata = iata;
+		this.pais = pais;
+		this.fechaFundacion = fechaFundacion;
+		this.estatus = estatus;
+	}
 
-    public Long getId() {
+	public Aerolinea() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Long getId() {
         return id;
     }
 

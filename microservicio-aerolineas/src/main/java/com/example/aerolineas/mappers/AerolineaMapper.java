@@ -11,6 +11,7 @@ import com.example.commons.models.entities.Aerolinea;
 @Component
 public class AerolineaMapper extends CommonMapper<AerolineaDTO, Aerolinea, AerolineaRepository>{
 
+	
 	@Override
 	public AerolineaDTO entityToDto(Aerolinea entity) {
 		AerolineaDTO dto = new AerolineaDTO();
@@ -34,5 +35,6 @@ public class AerolineaMapper extends CommonMapper<AerolineaDTO, Aerolinea, Aerol
 		entity.setFechaFundacion(dto.getFecha());
 		return entity;
 	}
+	
 	
 }

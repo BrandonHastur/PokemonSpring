@@ -26,6 +26,7 @@ implements AeropuertoService{
 		return lista;
 	}
 
+	
 	@Override
 	@Transactional(readOnly = true)
 	public Optional<AeropuertoDTO> obtener(Long id) {
@@ -36,12 +37,14 @@ implements AeropuertoService{
 		return Optional.empty();
 	}
 	
+	
 	@Override
 	@Transactional
 	public AeropuertoDTO insertar(AeropuertoDTO dto) {
-		Aeropuerto aeropuerto = mapper.dtoToEntity(dto);
-		repository.save(aeropuerto);
-		return dto;
+	    Aeropuerto nuevo = mapper.dtoToEntity(dto);
+	    nuevo.setId(null); // Forzamos a que no tenga ID para que lo genere la secuencia
+	    Aeropuerto guardado = repository.save(nuevo);
+	    return mapper.entityToDto(guardado);
 	}
 
 	@Override
@@ -62,6 +65,7 @@ implements AeropuertoService{
 		}
 		return null;
 	}
+	
 	
 	@Override
 	@Transactional

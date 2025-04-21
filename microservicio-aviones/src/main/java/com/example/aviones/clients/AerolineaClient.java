@@ -11,5 +11,5 @@ public interface AerolineaClient {
 	
 	@GetMapping("/{id}")
 	public Aerolinea getAerolineaById(@PathVariable Long id);
+	
 }
-

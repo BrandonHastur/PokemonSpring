@@ -28,6 +28,7 @@ public class AvionesServiceImpl extends
 		return lista;
 	}
 
+	
 	@Override
 	@Transactional(readOnly = true)
 	public Optional<AvionDTO> obtener(Long id) {
@@ -38,13 +39,16 @@ public class AvionesServiceImpl extends
 		return Optional.empty();
 	}
 
+	
 	@Override
 	@Transactional
 	public AvionDTO insertar(AvionDTO dto) {
-		Avion aerolinea = mapper.dtoToEntity(dto);
-		repository.save(aerolinea);
-		return dto;
+	    Avion nuevo = mapper.dtoToEntity(dto);
+	    nuevo.setId(null);
+	    Avion guardado = repository.save(nuevo);
+	    return mapper.entityToDto(guardado);
 	}
+	
 	
 	@Override
 	@Transactional
@@ -58,6 +62,7 @@ public class AvionesServiceImpl extends
 		return null;
 	}
 
+	
 	@Override
 	@Transactional
 	public AvionDTO eliminar(Long id) {
